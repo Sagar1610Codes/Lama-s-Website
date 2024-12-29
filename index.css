@@ -368,7 +368,7 @@ body {
 	margin: 20px; 
 	
 	.video-item {
-		height:auto;
+		height:calc(100vh/2);
 		position: relative;
 		background: transparent;
 		/* border-radius: 8px; */
