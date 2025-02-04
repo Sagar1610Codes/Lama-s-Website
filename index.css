@@ -94,33 +94,25 @@ body {
 /* Keyframes for scrollUp animation */
 @keyframes scrollUp {
 
+
 	0%,
-	15% {
+	25% {
 		transform: translateY(0);
 	}
 
-	20%,
-	35% {
-		transform: translateY(calc(-100%/6));
+	25%,
+	50% {
+		transform: translateY(calc(-100%/4));
 	}
 
-	40%,
-	55% {
-		transform: translateY(calc(-200%/6));
-	}
-
-	60%,
+	50%,
 	75% {
-		transform: translateY(calc(-300%/6));
+		transform: translateY(calc(-200%/4));
 	}
 
-	80%,
-	95% {
-		transform: translateY(calc(-400%/6));
-	}
-
+	75%,
 	100% {
-		transform: translateY(calc(-500%/6));
+		transform: translateY(calc(-300%/4));
 	}
 }
 
